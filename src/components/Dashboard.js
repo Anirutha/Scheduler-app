@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Scheduler from './Scheduler';
-import Toolbar from './Toolbar';
-import MessageArea from './MessageArea';
+import Scheduler from './Scheduler/Scheduler';
+import Toolbar from './Toolbar/Toolbar';
+
 import Base from '../Base/Base';
+import MessageArea from './MessageArea/MessageArea';
 
 const data = [
     { start_date:'2023-12-22 6:00', end_date:'2023-12-22 8:00', text:'Event 1', id: 1},
