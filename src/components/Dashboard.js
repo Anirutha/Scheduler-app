@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Scheduler from './Scheduler/Scheduler';
-import Toolbar from './Toolbar/Toolbar';
+import Scheduler from './Scheduler/';
+import Toolbar from './Toolbar';
 
 import Base from '../Base/Base';
 import MessageArea from './MessageArea/MessageArea';
